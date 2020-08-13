@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		9F87EAE424E4817900938F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EAE324E4817900938F4A /* AppDelegate.m */; };
 		9F87EAE724E4817900938F4A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EAE624E4817900938F4A /* SceneDelegate.m */; };
-		9F87EAEA24E4817900938F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EAE924E4817900938F4A /* ViewController.m */; };
 		9F87EAED24E4817900938F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F87EAEB24E4817900938F4A /* Main.storyboard */; };
 		9F87EAEF24E4817900938F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F87EAEE24E4817900938F4A /* Assets.xcassets */; };
 		9F87EAF224E4817900938F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F87EAF024E4817900938F4A /* LaunchScreen.storyboard */; };
 		9F87EAF524E4817900938F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EAF424E4817900938F4A /* main.m */; };
+		9F87EB0424E4871100938F4A /* TRCCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB0324E4871100938F4A /* TRCCityAirQuality.m */; };
+		9F87EB0724E4893100938F4A /* TRCPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB0624E4893100938F4A /* TRCPollution.m */; };
+		9F87EB0A24E4893D00938F4A /* TRCWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB0924E4893D00938F4A /* TRCWeather.m */; };
+		9F87EB0D24E4947D00938F4A /* TRCCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB0C24E4947D00938F4A /* TRCCityAirQualityController.m */; };
+		9F87EB1624E4AB8600938F4A /* TRCCityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB1524E4AB8600938F4A /* TRCCityDetailsViewController.swift */; };
+		9F87EB1A24E4AD0D00938F4A /* TRCCountriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB1924E4AD0D00938F4A /* TRCCountriesListViewController.swift */; };
+		9F87EB1C24E4AE5400938F4A /* TRCStatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB1B24E4AE5400938F4A /* TRCStatesListViewController.swift */; };
+		9F87EB1E24E4AE6100938F4A /* TRCCitiesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87EB1D24E4AE6100938F4A /* TRCCitiesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +29,24 @@
 		9F87EAE324E4817900938F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F87EAE524E4817900938F4A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		9F87EAE624E4817900938F4A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9F87EAE824E4817900938F4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F87EAE924E4817900938F4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F87EAEC24E4817900938F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F87EAEE24E4817900938F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F87EAF124E4817900938F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F87EAF324E4817900938F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F87EAF424E4817900938F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F87EB0224E4871100938F4A /* TRCCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCCityAirQuality.h; sourceTree = "<group>"; };
+		9F87EB0324E4871100938F4A /* TRCCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCCityAirQuality.m; sourceTree = "<group>"; };
+		9F87EB0524E4893100938F4A /* TRCPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCPollution.h; sourceTree = "<group>"; };
+		9F87EB0624E4893100938F4A /* TRCPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCPollution.m; sourceTree = "<group>"; };
+		9F87EB0824E4893D00938F4A /* TRCWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCWeather.h; sourceTree = "<group>"; };
+		9F87EB0924E4893D00938F4A /* TRCWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCWeather.m; sourceTree = "<group>"; };
+		9F87EB0B24E4947D00938F4A /* TRCCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCCityAirQualityController.h; sourceTree = "<group>"; };
+		9F87EB0C24E4947D00938F4A /* TRCCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCCityAirQualityController.m; sourceTree = "<group>"; };
+		9F87EB0E24E4AB2700938F4A /* airQualityOBJC35-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "airQualityOBJC35-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F87EB1524E4AB8600938F4A /* TRCCityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCCityDetailsViewController.swift; sourceTree = "<group>"; };
+		9F87EB1924E4AD0D00938F4A /* TRCCountriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCCountriesListViewController.swift; sourceTree = "<group>"; };
+		9F87EB1B24E4AE5400938F4A /* TRCStatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCStatesListViewController.swift; sourceTree = "<group>"; };
+		9F87EB1D24E4AE6100938F4A /* TRCCitiesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCCitiesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +79,86 @@
 		9F87EAE124E4817900938F4A /* airQualityOBJC35 */ = {
 			isa = PBXGroup;
 			children = (
+				9F87EAFE24E4825A00938F4A /* Models */,
+				9F87EAFD24E4825500938F4A /* Controllers */,
+				9F87EAFC24E4825200938F4A /* Views */,
+				9F87EAFB24E4821100938F4A /* Resources */,
+			);
+			path = airQualityOBJC35;
+			sourceTree = "<group>";
+		};
+		9F87EAFB24E4821100938F4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				9F87EAE224E4817900938F4A /* AppDelegate.h */,
 				9F87EAE324E4817900938F4A /* AppDelegate.m */,
 				9F87EAE524E4817900938F4A /* SceneDelegate.h */,
 				9F87EAE624E4817900938F4A /* SceneDelegate.m */,
-				9F87EAE824E4817900938F4A /* ViewController.h */,
-				9F87EAE924E4817900938F4A /* ViewController.m */,
-				9F87EAEB24E4817900938F4A /* Main.storyboard */,
 				9F87EAEE24E4817900938F4A /* Assets.xcassets */,
 				9F87EAF024E4817900938F4A /* LaunchScreen.storyboard */,
 				9F87EAF324E4817900938F4A /* Info.plist */,
 				9F87EAF424E4817900938F4A /* main.m */,
 			);
-			path = airQualityOBJC35;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F87EAFC24E4825200938F4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EB0124E482B900938F4A /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F87EAFD24E4825500938F4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EB0024E482A900938F4A /* ModelControllers */,
+				9F87EAFF24E482A700938F4A /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F87EAFE24E4825A00938F4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EB0224E4871100938F4A /* TRCCityAirQuality.h */,
+				9F87EB0324E4871100938F4A /* TRCCityAirQuality.m */,
+				9F87EB0524E4893100938F4A /* TRCPollution.h */,
+				9F87EB0624E4893100938F4A /* TRCPollution.m */,
+				9F87EB0824E4893D00938F4A /* TRCWeather.h */,
+				9F87EB0924E4893D00938F4A /* TRCWeather.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F87EAFF24E482A700938F4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EB1924E4AD0D00938F4A /* TRCCountriesListViewController.swift */,
+				9F87EB1B24E4AE5400938F4A /* TRCStatesListViewController.swift */,
+				9F87EB1D24E4AE6100938F4A /* TRCCitiesListViewController.swift */,
+				9F87EB1524E4AB8600938F4A /* TRCCityDetailsViewController.swift */,
+				9F87EB0E24E4AB2700938F4A /* airQualityOBJC35-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F87EB0024E482A900938F4A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EB0B24E4947D00938F4A /* TRCCityAirQualityController.h */,
+				9F87EB0C24E4947D00938F4A /* TRCCityAirQualityController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		9F87EB0124E482B900938F4A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9F87EAEB24E4817900938F4A /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +187,13 @@
 		9F87EAD724E4817900938F4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TRC;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Todd Crandall";
 				TargetAttributes = {
 					9F87EADE24E4817900938F4A = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -146,10 +233,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F87EAEA24E4817900938F4A /* ViewController.m in Sources */,
+				9F87EB0A24E4893D00938F4A /* TRCWeather.m in Sources */,
+				9F87EB1E24E4AE6100938F4A /* TRCCitiesListViewController.swift in Sources */,
+				9F87EB1A24E4AD0D00938F4A /* TRCCountriesListViewController.swift in Sources */,
+				9F87EB0724E4893100938F4A /* TRCPollution.m in Sources */,
 				9F87EAE424E4817900938F4A /* AppDelegate.m in Sources */,
+				9F87EB0424E4871100938F4A /* TRCCityAirQuality.m in Sources */,
 				9F87EAF524E4817900938F4A /* main.m in Sources */,
+				9F87EB1624E4AB8600938F4A /* TRCCityDetailsViewController.swift in Sources */,
 				9F87EAE724E4817900938F4A /* SceneDelegate.m in Sources */,
+				9F87EB1C24E4AE5400938F4A /* TRCStatesListViewController.swift in Sources */,
+				9F87EB0D24E4947D00938F4A /* TRCCityAirQualityController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,15 +383,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W526HH7467;
-				INFOPLIST_FILE = airQualityOBJC35/Info.plist;
+				INFOPLIST_FILE = airQualityOBJC35/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iOS35.airQualityOBJC35;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "airQualityOBJC35/Controllers/ViewControllers/airQualityOBJC35-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,15 +404,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W526HH7467;
-				INFOPLIST_FILE = airQualityOBJC35/Info.plist;
+				INFOPLIST_FILE = airQualityOBJC35/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iOS35.airQualityOBJC35;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "airQualityOBJC35/Controllers/ViewControllers/airQualityOBJC35-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
